@@ -55,7 +55,7 @@
             label = "Nav";
             bindings = <
                 &kp ESC     &trans       &kp BSLH    &kp LA(LSFT)     &trans       &kp PG_UP       &kp HOME        &kp UARW    &kp END    &kp INS
-                &kp CAPS    &kp TAB      &kp PIPE    &trans          &trans        &kp PG_DN       &kp LARW        &kp DARW    &kp RARW   &kp DEL
+                &kp CAPS    &kp TAB      &kp PIPE    &trans          &kp LC(LG(Q))        &kp PG_DN       &kp LARW        &kp DARW    &kp RARW   &kp DEL
                 &kp LG(Z)   &kp LG(X)    &kp LG(C)   &kp LG(V)          &trans       &trans           &trans          &trans      &trans     &kp QMARK
                                                   &trans          &trans       &trans         &trans
             >;
@@ -66,7 +66,7 @@
             bindings = <
                 &trans	   &trans     &trans      &kp F1          &kp F2       &kp F3           &kp F4         &kp F5       &kp F6       &trans
                 &trans     &trans     &trans      &kp F7          &kp F8       &kp F9           &kp F10        &kp F11      &kp F12      &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
+                &bt BT_CLR     &bt BT_NXT     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
                                                   &trans          &kp K_VOL_DN    &kp K_VOL_UP        &trans
             >;
         };
