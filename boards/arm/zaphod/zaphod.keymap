@@ -46,7 +46,7 @@
             bindings = <
                 &kp N1     &kp N2     &kp N3      &kp N4          &kp N5       &kp N6           &kp N7         &kp N8      &kp N9     &kp N0
                 &kp EXCL   &kp AT     &kp HASH    &kp DLLR        &kp PRCNT    &kp CARET        &kp AMPS       &kp STAR    &kp LPAR   &kp RPAR
-                &kp EQUAL  &kp PLUS   &kp MINUS   &kp UNDER       &kp GRAVE    &kp TILDE        &kp SEMI       &kp COLON   &kp FSLH   &kp QMARK
+                &kp MINUS  &kp UNDER  &kp EQUAL   &kp PLUS          &kp GRAVE    &kp TILDE        &kp SEMI       &kp COLON   &kp FSLH   &kp QMARK
                                                   &trans          &trans       &trans           &trans
             >;
         };
